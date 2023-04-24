@@ -61,7 +61,7 @@ outline: 1px solid rgb(83, 84, 84);
 }
 main{
     background-color: var(--main-color);
-    max-width: 75rem;
+    max-width: 85rem;
     margin: 0 auto;
     padding: 0.8rem;
 }
@@ -77,6 +77,7 @@ h2 {
     margin: 2rem;
     color: var(--header-color);
     font-family: Lobster;
+    font-size: xx-large;
 }
 #description-title{
     text-align: center;
@@ -86,51 +87,55 @@ li{
     background-color: var(--color-list);
     margin-top: .3rem;
     margin-bottom: .3rem;
-    max-width: 75rem;
-    font-size: 1.5rem;
+    max-width: 85rem;
+    font-size: 2rem;
     padding: .8rem;
+    color: var(--main-color);
 }
 #partie4{
     background-color: var(--main-color);
-    max-width: 75rem;
+    max-width: 85rem;
     margin: 1rem auto;
     padding: 0.8rem;
 }
 input[type="submit"]{
     margin: 2rem;
-    padding: 1rem;
-    cursor: pointer;
+    margin-left: 4rem;
+    padding: 2rem;
+    cursor: crosshair;
     width: 25%;
     align-self: center;
 
 }
 input[value="Rechercher"]{
-    background-color: rgb(0, 153, 255);
+    background-color: rgb(2, 120, 199);
     border-radius: .4rem;
     border-color: #000000;
     border-width: 5rem;
 }
 input[value="Vider le panier"]{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(163, 4, 4);
     border-radius: .4rem;
     border-color: #000000;
     border-width: 5rem;
+    text-transform: uppercase;
 }
 input[value="Ajouter au Panier"]{
-    background-color: rgb(0, 148, 0);
+    background-color: rgb(1, 119, 1);
     border-radius: .4rem;
     border-color: #000000;
     border-width: 5rem;
+    text-transform: uppercase;
 }
 
 footer{
     text-align: center;
     background-color: var(--color-list);
-    max-width: 75rem;
+    max-width: 85rem;
     margin: 0 auto;
     padding: .8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: var(--main-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
