@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html{ /* sélecteur propriété valeur */
+    font-size: 62.5%;  /* 1.000rem root em 10px */
+    background: #52A0BD;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem sans-serif; /* 16px */
+    margin: 0;
+    color: var(--default-color);
+    background-color: var(--body-color);
+    letter-spacing: .1rem;
+    line-height: 1.6;
+    
+}
+
+input[type="submit"]{
+    border: 0;
+    background: none;
+    font-size: inherit;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+}
+img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h1,h2,h3,h4,p,ol,ul,figure,dd{
+    margin: 0;
+    padding: 0;
+    font-weight: none;
+    list-style: none;
+    
+}
+/* pour chrome */
+body::-webkit-scrollbar {
+    width: .8rem;
+}
+
+body::-webkit-scrollbar-track {
+box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: rgb(33, 32, 32);
+outline: 1px solid rgb(83, 84, 84);
+}
+/* Thème */
+:root{
+    --color-default: rgba(61, 56, 56, 0.5); /* 64 */
+    --color-link: #4b4b4b; /* 8 bit */
+    --color-body: #fafafafa;
+    --header-color: #005A78;
+    --main-color: rgb(255, 255, 255);
+    --color-list: #2C3E50;
+}
+main{
+    background-color: var(--main-color);
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0.8rem;
+}
+header {
+    text-align: center;
+    color: var(--color-body);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--header-color);
+    font-family: Lobster ;
+}
+h2 {
+    margin: 2rem;
+    color: var(--header-color);
+    font-family: Lobster;
+}
+#description-title{
+    text-align: center;
+    margin: 1rem;
+}
+input[type="submit"]{
+    margin-top: 1rem;
+    padding: .2rem;
+    cursor: pointer;
+    width: 35%;
+    align-items: center;
+}
+input[value="Rechercher"]{
+    background-color: rgb(0, 153, 255);
+    border-radius: .4rem;
+    border-color: #000000;
+}
+#partie4{
+    background-color: var(--main-color);
+    max-width: 75rem;
+    margin: 1rem auto;
+    padding: 0.8rem;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--color-list);
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
