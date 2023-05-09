@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+/*Reset*/
 html{ /* sélecteur propriété valeur */
     font-size: 62.5%;  /* 1.000rem root em 10px */
     background: #52A0BD;
@@ -117,12 +118,27 @@ li{
     text-align: center;
 }
 button{
+    padding: 1.5rem;
     padding-left:5rem;
     padding-right: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 25rem;
     font-size: 1.6rem;
+    color : var(--color-body);
+}
+.Rechercher{
+    background-color: rgb(34, 116, 192);
+    
+}
+.drop_basket{
+    background-color: rgb(218, 47, 47);
+    
+}
+.add_to_basket{
+    background-color: rgb(43, 126, 43);
+    
+    font-weight:400 ;
 }
 footer{
     text-align: center;
