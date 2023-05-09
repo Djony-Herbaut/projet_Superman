@@ -1,5 +1,5 @@
 # 🦸‍♂️ Projet Superman
-Projet Superman du (Cour HTML)
+Projet Superman (Cour HTML)
 
 ![cover](./asset/superman.jpg)
 
